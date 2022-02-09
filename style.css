@@ -1,0 +1,378 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+
+}
+
+.container1{
+    position: absolute;
+    width: 698px;
+    height: 586px;
+}
+
+.rectangle1{
+    position: absolute;
+    height: 461px;
+    width: 639px;
+    background: rgba(179, 255, 167, 0.3);
+}
+
+.rectangle2{
+    position: absolute;
+    height: 586px;
+    width: 311px; 
+    background: rgba(119, 255, 247, 0.5);
+}
+
+.rectangle3{
+    position: absolute;
+    height: 154px;
+    width: 588px;
+    margin-left: 110px;  
+    background: rgba(89, 255, 185, 0.6);
+}
+
+.rectangle4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 47px;
+    width: 357px;
+    margin-top: 77px;    
+    background: #FFFFFF;
+}
+
+h4{
+    font-size: 28px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: rgba(96, 196, 154, 0.6);
+}
+
+
+
+
+
+
+.workcontainer1{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    height: 215px;
+    margin-top: 200px;
+    margin-left: 56px;
+}
+
+.illu01_01{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-image: url(illu01-01.png);
+    background-size: contain;
+}
+
+.illu01_02{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-image: url(illu01-02.png);
+    background-size: contain;
+}
+
+.illu01_03{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-image: url(illu01-03.png);
+    background-size: contain;
+}
+
+p{
+    margin-left: 12%;
+    font-size: 21px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: #515151;
+}
+
+
+
+
+
+
+
+.workcontainer2{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    height: 215px;
+    margin-top: 410px;
+    margin-left: 56px;
+}
+
+.illu02_01{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-image: url(illu02-01.png);
+    background-size: contain;
+}
+
+.illu02_02{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-image: url(illu02-02.png);
+    background-size: contain;
+}
+
+.illu02_03{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-image: url(illu02-03.png);
+    background-size: contain;
+}
+
+
+
+
+
+.workcontainer3{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    height: 215px;
+    margin-top: 620px;
+    margin-left: 56px;
+}
+
+.illu03_01{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-color: aliceblue;
+}
+
+.illu03_02{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-color: aliceblue;
+}
+
+.illu03_03{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+.workcontainer4{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    height: 215px;
+    margin-top: 830px;
+    margin-left: 56px;
+}
+
+.illu04_01{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-color: aliceblue;
+}
+
+.illu04_02{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-color: aliceblue;
+}
+
+.illu04_03{
+    width: 180px;
+    height: 170px;
+    margin-left: 25%;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+.linecontainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 1025px;
+    width: 1400px;
+    margin-top: 200px;
+    margin-left: 56px;
+}
+
+.line1{
+    position: absolute;
+    height: 0px;
+    width: 1400px;
+    border: 2px solid rgba(111, 228, 179, 0.6);
+}
+
+.line2{
+    position: absolute;
+    height: 0px;
+    width: 1400px;
+    margin-top: 15%;
+    border: 2px solid rgba(111, 228, 179, 0.6);
+}
+
+.line3{
+    position: absolute;
+    height: 0px;
+    width: 1400px;
+    margin-top: 30%;
+    border: 2px solid rgba(111, 228, 179, 0.6);
+}
+
+.line4{
+    position: absolute;
+    height: 0px;
+    width: 1400px;
+    margin-top: 45%;
+    border: 2px solid rgba(111, 228, 179, 0.6);
+}
+
+.line5{
+    position: absolute;
+    height: 0px;
+    width: 1400px;
+    margin-top: 60%;
+    border: 2px solid rgba(111, 228, 179, 0.6);
+}
+
+
+
+
+
+
+
+
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 55px;
+    width: 1030px;
+    margin-left: 250px;
+    margin-top: 880px;
+}
+
+.button1{
+    height: 55px;
+    width: 205px;
+    border-radius: 50px;
+    background: rgba(89, 175, 255, 0.7);
+}
+
+.button1:hover{
+    background: rgba(119, 214, 255, 0.5);
+}
+
+.button2{
+    height: 55px;
+    width: 205px;
+    border-radius: 50px;
+    background: rgba(161, 248, 226);
+}
+
+.button2:hover{
+    background: rgba(179, 255, 167, 0.3);
+}
+
+.homebutton:hover{
+    background-image: url(homebutton_grey.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.button3{
+    height: 55px;
+    width: 205px;
+    border-radius: 50px;
+    background: rgba(255, 217, 119, 0.7);
+}
+
+.button3:hover{
+    background: rgba(255, 217, 119, 0.5);
+}
+
+.button4{
+    height: 55px;
+    width: 205px;
+    border-radius: 50px;
+    background: rgba(255, 143, 119, 0.7);
+}
+
+.button4:hover{
+    background: rgba(255, 143, 119, 0.5);
+}
+
+h6{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: #FFFFFF;
+}
+
+h6:hover{
+    margin-top: 4%;
+    font-size: 23px;
+    color: #515151;
+}
+
+
+
+
+
+
+
+.copyright{
+    position: fixed;
+    width: 150px;
+    margin-top: 950px;
+    margin-left: 690px;
+    font-size: 18px;
+    font-family: 'Hepta Slab', serif;
+    color: rgb(177, 177, 177, 0.8);
+}
